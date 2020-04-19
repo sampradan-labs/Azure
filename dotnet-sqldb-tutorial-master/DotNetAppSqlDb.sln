@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAppSqlDb", "DotNetAppSqlDb\DotNetAppSqlDb.csproj", "{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWeatherApi", "CoreWebApp\CoreWeatherApi.csproj", "{D23A748B-A5BA-42B8-B944-20169D05719B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionedQueues", "ProvisionedQueues\ProvisionedQueues.csproj", "{C62C7968-38E0-44D5-BA67-A9B7AE55280F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueReader", "QueueReader\QueueReader.csproj", "{F328C252-946E-43E3-89D4-559F3306A91C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3250AB4-90E2-43F4-9260-B1CB7CB2188F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23A748B-A5BA-42B8-B944-20169D05719B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23A748B-A5BA-42B8-B944-20169D05719B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23A748B-A5BA-42B8-B944-20169D05719B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23A748B-A5BA-42B8-B944-20169D05719B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62C7968-38E0-44D5-BA67-A9B7AE55280F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62C7968-38E0-44D5-BA67-A9B7AE55280F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62C7968-38E0-44D5-BA67-A9B7AE55280F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62C7968-38E0-44D5-BA67-A9B7AE55280F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F328C252-946E-43E3-89D4-559F3306A91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F328C252-946E-43E3-89D4-559F3306A91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F328C252-946E-43E3-89D4-559F3306A91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F328C252-946E-43E3-89D4-559F3306A91C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {476038B6-5B11-4A7E-9B09-0F4CB9E444D5}
+	EndGlobalSection
+EndGlobal
