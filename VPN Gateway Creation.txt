@@ -1,0 +1,41 @@
+Create Resource Group - (forVpn)
+Create Virtual Network - (forDBMigration)
+
+Create Virtual Gateway (vpnGateway)
+	- Create Public IP (dbPublicIP)
+- After creating gateway. Click on the gateway and choose "point to site configuration"
+  In this screen, set the options as below
+  	-Address Pool: 172.16.23.0/24
+  	-Tunnel Type: IKEv2 and SSTP
+  	-Authentication Type: Azure Certificate
+	-Root Certificate:
+		- Create a root, client certificate using powershell
+		- Open certificates (type certificates in windows start menu)
+			- You will find your created certificate in Personal folder here
+			- Right click on the root certificate => All Tasks => Export
+				- Here choose "No, do not export the private key".
+				- Click Next. Choose Base64 encoded X.509.
+				- Click Next. Choose a folder to save the certificate
+				- Navigate to the folder, and open the certificate in                                   notepad
+				- This string should be pasted in azure portal's Root 				  Certificate text field
+	-Click Save.
+-Only after the point-to-site-configuration is saved,
+	- Click Download VPN Client
+	- Unzip the folder
+	- Navigate to WindowsAmd64
+	- Double-click the installer. If the anti-virus stops it, add it to exception 	  cases
+- Go to Control Panel VPN settings
+- You will find your VPN created.
+- Connect it, the connection should pass without hassles. 
+- You are now ready to perform the migration
+
+
+--------------
+
+
+
+
+
+
+
+
